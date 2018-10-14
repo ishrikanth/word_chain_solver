@@ -1,9 +1,9 @@
 Implementation in ruby to Word Chain Solver.
 Author: Shrikanth <shrikush01@gmail.com>
 Classes:
-	Equilibrium - Word Chain Solver.
+	WordTransform - Word Chain Solver.
 Usage:
- ruby word_transform.rb dog cat
+ ./run.sh dog cat
 #returns true/false
 
 Solution involves having a queue which will be used for storing all the different combination of the word by changing one character at time. This will be done for each word in the queue until queue becomes empty. When any of the word in the queue matches the desired output we retuen "YES". If queue becomes empty we return "NO"
